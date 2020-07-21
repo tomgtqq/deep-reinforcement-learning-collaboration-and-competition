@@ -1,1 +1,1 @@
-# project3-deep-reinforcement-learning-collaboration-and-competition
+# deep-reinforcement-learning-collaboration-and-competition
