@@ -125,11 +125,13 @@ The tennis task was solved in episode 748.
 </div>
 <div align="center">
 <u> **Figure 2** </u>: ** Watch agents **<br> 
+            
 <div align="center">
 <img src="assets/figure1.png" height="350" width="600">
 </div>
 <div align="center">
 <u> **Figure 3** </u>: ** Episodes log **<br> 
+            
 </div>
 <div align="center">
 <img src="assets/figure2.png" height="350" width="600">
