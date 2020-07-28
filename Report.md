@@ -104,7 +104,7 @@ When I structured the model as
 
 I defined "nn.BatchNorm1d" between each layer. The [Batch Normalization](https://arxiv.org/pdf/1502.03167.pdf) technology could accelerate Deep Network Training. 
 
-#### hyper-parameter
+#### Hyper-parameter
 
 ```
 BUFFER_SIZE = int(1e6)    # replay buffer size
