@@ -140,10 +140,13 @@ The tennis task was solved in episode 748.
 <u> **Figure 4** </u>: **Rewards histogram**<br> 
 </div>
 <br> 
+
+
 ## Conclusion
 The multi-agent DDPG algorithm is a centralized training and decentralized execution algorithm that be good performance in the  Mixed Cooperative-Competitive Environments.
 
 Another thing I learned was that I needed to look at all available returned information to determine how well the model was learning. What confused me at the beginning was that no matter how to adjust the parameters, the agent always gets 0 rewards. It was intuitively seen from the score that the model did not learn. I found out what the problem was, because I was based on the project2 as the baseline. The print message is {:.1f}, this project rewards' scale were different.  I needed to change {:.4f} for this task.
+
 
 ## Future enhancements
 - Implement "(Optional) Challenge: Play Soccer". 
