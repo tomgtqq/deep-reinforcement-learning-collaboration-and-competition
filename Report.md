@@ -125,13 +125,13 @@ The tennis task was solved in episode 748.
 </div>
 <div align="center">
 <u> **Figure 2** </u>: ** Watch agents **<br> 
-            
+<br>             
 <div align="center">
 <img src="assets/figure1.png" height="350" width="600">
 </div>
 <div align="center">
 <u> **Figure 3** </u>: ** Episodes log **<br> 
-            
+<br>             
 </div>
 <div align="center">
 <img src="assets/figure2.png" height="350" width="600">
@@ -139,7 +139,7 @@ The tennis task was solved in episode 748.
 <div align="center">
 <u> **Figure 4** </u>: **Rewards histogram**<br> 
 </div>
-
+<br> 
 ## Conclusion
 The multi-agent DDPG algorithm is a centralized training and decentralized execution algorithm that be good performance in the  Mixed Cooperative-Competitive Environments.
 
