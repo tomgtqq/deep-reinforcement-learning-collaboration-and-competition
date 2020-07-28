@@ -139,7 +139,6 @@ The tennis task was solved in episode 748.
 <div align="center">
 <u> **Figure 4** </u>: **Rewards histogram**<br> 
 </div>
-<br> 
 
 
 ## Conclusion
