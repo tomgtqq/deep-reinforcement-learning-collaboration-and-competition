@@ -150,3 +150,4 @@ Another thing I learned was that I needed to look at all available returned info
 ## Future enhancements
 - Implement "(Optional) Challenge: Play Soccer". 
 - Explore and use [(MADDPG)](https://papers.nips.cc/paper/7217-multi-agent-actor-critic-for-mixed-cooperative-competitive-environments.pdf)in other environments.
+- Explore whether multiple games can be played simultaneously to train agents
