@@ -25,7 +25,7 @@ The states set that is all information from environment were inputed agents to g
             actions = np.concatenate((A0, A1), axis=0).flatten()    # combinate A0, A1 as A
 ```
 
-The rewareds determine the behavior of the corresponding agent. So I inputed rewards[0] to agent0 and rewards[1] to agent1 to train the agents.
+The rewards determine the behavior of the corresponding agent. So I inputed rewards[0] to agent0 and rewards[1] to agent1 to train the agents.
 
 ```python
             agent0.step(states, actions, rewards[0], next_states, dones[0])  #  input <S, A, R0, S', done0> 
