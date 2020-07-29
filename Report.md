@@ -17,7 +17,7 @@ I implemented the Multi-Agent Deep Deterministic Policy Gradient [(MADDPG)](http
 </div>
 There are tow agents,The neural network model as 'actor' and 'critic' for each agent. I needed to implement the centralized traning with decentralized execution. So Using all information to optimize critic parameters and actor local parameters. 
 
-The states set that is all information from environment were inputed agents to get actions set. The agent return the corresponding action. Then Agents interacted with environment using A <A0, A1> . 
+The states set that is all information from environment were inputted agents to get actions set. The agent returns the corresponding action. Then Agents interacted with environment using A <A0, A1> . 
 
 ```python
             A0 = agent0.act(states, add_noise=True)                 # get A0 shape(1, 2)
@@ -25,7 +25,7 @@ The states set that is all information from environment were inputed agents to g
             actions = np.concatenate((A0, A1), axis=0).flatten()    # combinate A0, A1 as A
 ```
 
-The rewards determine the behavior of the corresponding agent. So I inputed rewards[0] to agent0 and rewards[1] to agent1 to train the agents.
+The rewards determine the behavior of the corresponding agent. So I inputted rewards[0] to agent0 and rewards[1] to agent1 to train the agents.
 
 ```python
             agent0.step(states, actions, rewards[0], next_states, dones[0])  #  input <S, A, R0, S', done0> 
