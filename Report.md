@@ -1,5 +1,5 @@
 # Deep Reinforcement Learning Collaboration and Competition
-## OVERVIEW
+## Overview
 ##### Tuesday, July 28, 2020
 
 The report is for Udacity Deep Reinforcement learning course to train multi-agents to solve [Tennis](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#tennis) environment. So multi-agents must get an average score of +0.5 (over 100 consecutive episodes, after taking the maximum over both agents).  
